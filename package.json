@@ -10,6 +10,8 @@
   "license": "MIT",
   "dependencies": {
     "chrome-remote-interface": "^0.26.1",
-    "devtools-timeline-model": "git+https://github.com/paulirish/devtools-timeline-model.git"
+    "devtools-timeline-model": "git+https://github.com/paulirish/devtools-timeline-model.git",
+    "express": "^4.16.3",
+    "fs-extra": "^7.0.0"
   }
 }
