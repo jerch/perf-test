@@ -1,0 +1,15 @@
+{
+  "name": "xtermperf",
+  "version": "0.0.1",
+  "description": "perf measuring for xterm.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joerg Breitbart <j.breitbart@netzkolchose.de>",
+  "license": "MIT",
+  "dependencies": {
+    "chrome-remote-interface": "^0.26.1",
+    "devtools-timeline-model": "git+https://github.com/paulirish/devtools-timeline-model.git"
+  }
+}
