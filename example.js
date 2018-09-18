@@ -3,7 +3,7 @@ const { timeline, wait, remote, processors } = require('.');
 // global options
 let OPTIONS = {
   // optional, chrome must be running locally with debugging port enabled if omitted
-  spawnCommand: ['chromium-browser', ['--remote-debugging-port=9222']],
+  spawnCommand: ['chromium-browser', ['--remote-debugging-port=9222', '--headless']],
   // optional, wait in msec for spawn to complete, defaults to 3000
   spawnWait: 1000,
   // optional, defaults to `{host: 'localhost', port: 9222}`

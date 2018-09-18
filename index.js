@@ -55,7 +55,9 @@ async function runner(options) {
         try {
           await client.Browser.close();
         } catch (e) {
-          process.kill(-app.pid);
+          try {
+            process.kill(-app.pid);
+          } catch (e) { app.kill(); }
         }
       }
       await client.close();
