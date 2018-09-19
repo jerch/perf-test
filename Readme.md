@@ -5,7 +5,9 @@ Evaluating timeline profiling with Chrome for xterm.js.
 
 ### What it already does:
 
-- extract profiling data, save and print to terminal (see `example.js`)
+- extract timeline profiling data
+- top down view in terminal
+- summary (like the pie chart in inspector)
 - load multiple inspector instances it into a Webpage:
 
     - run `npm start`
@@ -17,6 +19,7 @@ the assets of your local installation by running `node extract-devtools.js`.
 
 ### TODO:
 
+- better tree view
 - eval puppeteer
 - dashboard comparison over long time and branches
 - viewer for saved profile data
