@@ -30,4 +30,6 @@ timeline(OPTIONS, [
   processors.reportTopDown(data, 3);
   // save traces to disk, can be inspected with performance tab in chrome
   processors.saveToDisk('traces', data);
+  // get summaries
+  console.log('summaries:\n', processors.summary(data));
 });
